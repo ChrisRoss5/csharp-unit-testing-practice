@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PI Projekt ISHOD 8\PI Projekt ISHOD 8.csproj" />
+    <ProjectReference Include="..\LearningOutcome8\LearningOutcome8.csproj" />
   </ItemGroup>
 
 </Project>

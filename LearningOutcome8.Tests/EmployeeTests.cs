@@ -1,4 +1,4 @@
-namespace PI_Projekt_ISHOD_8.Tests
+namespace LearningOutcome8.Tests
 {
     [TestClass]
     public class EmployeeTests

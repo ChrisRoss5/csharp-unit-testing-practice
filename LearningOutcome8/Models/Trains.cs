@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PI_Projekt_ISHOD_8.Models
+namespace LearningOutcome8.Models
 {
 
     public interface ITrain

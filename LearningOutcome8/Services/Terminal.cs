@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PI_Projekt_ISHOD_8.Models;
+using LearningOutcome8.Models;
 
-namespace PI_Projekt_ISHOD_8.Services
+namespace LearningOutcome8.Services
 {
     public sealed class Terminal
     {

@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using PI_Projekt_ISHOD_8.Models;
-using PI_Projekt_ISHOD_8.Services;
+using LearningOutcome8.Models;
+using LearningOutcome8.Services;
 
 Console.WriteLine("== Terminal for transporting vehicles by train ==");
 
@@ -30,7 +30,7 @@ do
     foreach (string s in inputStrings)
     {
         if (!int.TryParse(s, out int i) || i < 1 || i > vehicles.Length) continue;
-        Type? t = Type.GetType($"PI_Projekt_ISHOD_8.Models.{vehicles[i - 1].Replace(" ", "")}");
+        Type? t = Type.GetType($"LearningOutcome8.Models.{vehicles[i - 1].Replace(" ", "")}");
         if (t == null) continue;
         vehiclesToTransport.Add((ITransportableVehicle)Activator.CreateInstance(t)!);
     }
